@@ -1,0 +1,4 @@
+2021-06-03T13:08:25+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\xampp\htdocs\wordpress\wp-includes\blocks.php à la ligne 199
+
+2021-06-03T13:11:13+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\xampp\htdocs\wordpress\wp-content\plugins\ocean-extra\includes\widgets\tags.php à la ligne 9
+

@@ -1,0 +1,17 @@
+2021-06-02T22:20:34+00:00 CRITICAL Uncaught Error: Class 'Essential_Addons_Elementor\Classes\WP_Error' not found in C:\xampp\htdocs\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Classes\Plugin_Usage_Tracker.php:568
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Classes\Plugin_Usage_Tracker.php(476): Essential_Addons_Elementor\Classes\Plugin_Usage_Tracker->remote_post(Array)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Classes\Plugin_Usage_Tracker.php(225): Essential_Addons_Elementor\Classes\Plugin_Usage_Tracker->send_data(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Classes\Plugin_Usage_Tracker.php(674): Essential_Addons_Elementor\Classes\Plugin_Usage_Tracker->do_tracking(true)
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Essential_Addons_Elementor\Classes\Plugin_Usage_Tracker->clicked('')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-w dans C:\xampp\htdocs\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Classes\Plugin_Usage_Tracker.php à la ligne 568
+
+2021-06-02T22:21:03+00:00 CRITICAL Uncaught Error: Class 'Essential_Addons_Elementor\Classes\WP_Error' not found in C:\xampp\htdocs\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Classes\Plugin_Usage_Tracker.php:568
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Classes\Plugin_Usage_Tracker.php(476): Essential_Addons_Elementor\Classes\Plugin_Usage_Tracker->remote_post(Array)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Classes\Plugin_Usage_Tracker.php(225): Essential_Addons_Elementor\Classes\Plugin_Usage_Tracker->send_data(Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(292): Essential_Addons_Elementor\Classes\Plugin_Usage_Tracker->do_tracking()
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-cron.php(138): do_action_ref_array('pu dans C:\xampp\htdocs\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Classes\Plugin_Usage_Tracker.php à la ligne 568
+
